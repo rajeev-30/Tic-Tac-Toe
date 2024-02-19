@@ -29,7 +29,7 @@ boxes.forEach((box) => {
         box.disabled = true;
         checkWinner();
         count++;
-        if(count==2 && winner.innerText==""){
+        if(count==9 && winner.innerText==""){
             winner.style.color = "yellow";
             winner.innerText = "It's a Draw!"
         }
